@@ -53,7 +53,7 @@ if [ x$1 != x ] ; then
   prefix=$1
   shift
 else
-  prefix=/home/mustaavalkosta/pizzabean/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8
+  prefix=/home/mustaavalkosta/storage/arm-linux-androideabi-4.8
 fi
 
 # Allow for alternate isysroot in which to find headers

@@ -38,4 +38,4 @@ dlopen=''
 dlpreopen=''
 
 # Directory that this library needs to be installed in:
-libdir='/home/mustaavalkosta/pizzabean/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8/libexec/gcc/arm-linux-androideabi/4.8'
+libdir='/home/mustaavalkosta/storage/arm-linux-androideabi-4.8/libexec/gcc/arm-linux-androideabi/4.8'
