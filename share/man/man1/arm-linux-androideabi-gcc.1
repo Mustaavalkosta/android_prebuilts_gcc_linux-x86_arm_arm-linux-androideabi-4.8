@@ -124,7 +124,7 @@
 .\" ========================================================================
 .\"
 .IX Title "GCC 1"
-.TH GCC 1 "2013-12-22" "gcc-4.8" "GNU"
+.TH GCC 1 "2014-01-25" "gcc-4.8" "GNU"
 .\" For nroff, turn off justification.  Always turn off hyphenation; it makes
 .\" way too many mistakes in technical documents.
 .if n .ad l
@@ -190,7 +190,7 @@ in the following sections.
 \&\-pipe  \-pass\-exit\-codes  
 \&\-x\fR \fIlanguage\fR  \fB\-v  \-###  \-\-help\fR[\fB=\fR\fIclass\fR[\fB,...\fR]]  \fB\-\-target\-help  
 \&\-\-version \-wrapper @\fR\fIfile\fR \fB\-fplugin=\fR\fIfile\fR \fB\-fplugin\-arg\-\fR\fIname\fR\fB=\fR\fIarg\fR  
-\&\fB\-fdump\-ada\-spec\fR[\fB\-slim\fR] \fB\-fada\-spec\-parent=\fR\fIarg\fR \fB\-fdump\-go\-spec=\fR\fIfile\fR
+\&\fB\-fdump\-ada\-spec\fR[\fB\-slim\fR] \fB\-fada\-spec\-parent=\fR\fIunit\fR \fB\-fdump\-go\-spec=\fR\fIfile\fR
 .IP "\fIC Language Options\fR" 4
 .IX Item "C Language Options"
 \&\fB\-ansi  \-std=\fR\fIstandard\fR  \fB\-fgnu89\-inline 
@@ -1462,8 +1462,11 @@ Define an argument called \fIkey\fR with a value of \fIvalue\fR
 for the plugin called \fIname\fR.
 .IP "\fB\-fdump\-ada\-spec\fR[\fB\-slim\fR]" 4
 .IX Item "-fdump-ada-spec[-slim]"
-For C and \*(C+ source and include files, generate corresponding Ada
-specs.
+For C and \*(C+ source and include files, generate corresponding Ada specs.
+.IP "\fB\-fada\-spec\-parent=\fR\fIunit\fR" 4
+.IX Item "-fada-spec-parent=unit"
+In conjunction with \fB\-fdump\-ada\-spec\fR[\fB\-slim\fR] above, generate
+Ada specs as child units of parent \fIunit\fR.
 .IP "\fB\-fdump\-go\-spec=\fR\fIfile\fR" 4
 .IX Item "-fdump-go-spec=file"
 For input files in any language, generate corresponding Go

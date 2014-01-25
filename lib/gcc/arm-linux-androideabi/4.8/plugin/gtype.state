@@ -4,7 +4,7 @@
 ;;; Don't parse this file wihout knowing GCC gengtype internals.
 ;;; This file should be parsed by the same gengtype which wrote it.
 
-(!version  "4.8 20131222 (prerelease)")
+(!version  "4.8 20140125 (prerelease)")
 
 (!srcdir  "../.././../gcc/gcc-4.8/gcc")
 
@@ -15166,7 +15166,7 @@ nil 511 nil )
 (!srcfileloc  "tree.h" 3588)
 nil )
 (!pair  "optabs"
-(!type already_seen 36)
+(!type already_seen 10)
 
 (!srcfileloc  "tree.h" 3592)
 
@@ -17873,7 +17873,7 @@ nil 0 nil )
 (!type already_seen 708)
 )
  gc_pointed_to "constexpr_call"
-(!srcfileloc  "cp/semantics.c" 6434)
+(!srcfileloc  "cp/semantics.c" 6451)
 
 (!fields 4 
 (!pair  "fundef"
@@ -17881,38 +17881,38 @@ nil 0 nil )
 (!type struct 711 
 (!type already_seen 710)
  gc_pointed_to "constexpr_fundef"
-(!srcfileloc  "cp/semantics.c" 5767)
+(!srcfileloc  "cp/semantics.c" 5784)
 
 (!fields 2 
 (!pair  "decl"
 (!type already_seen 5)
 
-(!srcfileloc  "cp/semantics.c" 5765)
+(!srcfileloc  "cp/semantics.c" 5782)
 nil )
 (!pair  "body"
 (!type already_seen 5)
 
-(!srcfileloc  "cp/semantics.c" 5766)
+(!srcfileloc  "cp/semantics.c" 5783)
 nil ))
 nil 260 nil )
 )
 
-(!srcfileloc  "cp/semantics.c" 6418)
+(!srcfileloc  "cp/semantics.c" 6435)
 nil )
 (!pair  "bindings"
 (!type already_seen 5)
 
-(!srcfileloc  "cp/semantics.c" 6425)
+(!srcfileloc  "cp/semantics.c" 6442)
 nil )
 (!pair  "result"
 (!type already_seen 5)
 
-(!srcfileloc  "cp/semantics.c" 6430)
+(!srcfileloc  "cp/semantics.c" 6447)
 nil )
 (!pair  "hash"
 (!type already_seen 9)
 
-(!srcfileloc  "cp/semantics.c" 6433)
+(!srcfileloc  "cp/semantics.c" 6450)
 nil ))
 nil 260 nil )
 
@@ -21288,7 +21288,7 @@ nil 0 nil )
 (!fields 0 )
 nil 0 nil )
 
-(!type struct 992 nil  gc_unused "anonymous:../.././../gcc/gcc-4.8/gcc/config/arm/arm.c:25918"nil 
+(!type struct 992 nil  gc_unused "anonymous:../.././../gcc/gcc-4.8/gcc/config/arm/arm.c:25925"nil 
 (!fields 0 )
 nil 0 nil )
 
@@ -21544,38 +21544,38 @@ nil 0 nil )
 (!fields 0 )
 nil 0 nil )
 
-(!type struct 1039 nil  gc_unused "anonymous:../.././../gcc/gcc-4.8/gcc/tree-flow.h:570"nil 
+(!type struct 1039 nil  gc_unused "anonymous:../.././../gcc/gcc-4.8/gcc/tree-flow.h:571"nil 
 (!fields 0 )
 nil 0 nil )
 
 (!type undefined 1040 nil  gc_unused "vl_embed"
-(!srcfileloc  "tree-flow.h" 484)
+(!srcfileloc  "tree-flow.h" 485)
 )
 
 (!type undefined 1041 nil  gc_unused "va_heap"
-(!srcfileloc  "tree-flow.h" 484)
+(!srcfileloc  "tree-flow.h" 485)
 )
 
 (!type user_struct 1042 nil  gc_unused "vec<edge_var_map,va_heap,vl_embed>"
-(!srcfileloc  "tree-flow.h" 484)
+(!srcfileloc  "tree-flow.h" 485)
 
 (!fields 3 
 (!pair  "vl_embed"
 (!type already_seen 1040)
 
-(!srcfileloc  "tree-flow.h" 484)
+(!srcfileloc  "tree-flow.h" 485)
 nil )
 (!pair  "va_heap"
 (!type already_seen 1041)
 
-(!srcfileloc  "tree-flow.h" 484)
+(!srcfileloc  "tree-flow.h" 485)
 nil )
 (!pair  "edge_var_map"
 (!type struct 1043 nil  gc_unused "_edge_var_map"nil 
 (!fields 0 )
 nil 0 nil )
 
-(!srcfileloc  "tree-flow.h" 484)
+(!srcfileloc  "tree-flow.h" 485)
 nil ))
 )
 
@@ -24036,7 +24036,7 @@ nil 0 nil )
 (!type already_seen 868)
 
 (!type struct 1271 nil  gc_used "builtin_info_type_d"
-(!srcfileloc  "tree.h" 6468)
+(!srcfileloc  "tree.h" 6469)
 
 (!fields 2 
 (!pair  "decl"
@@ -24044,14 +24044,14 @@ nil 0 nil )
 (!type already_seen 5)
 )
 
-(!srcfileloc  "tree.h" 6466)
+(!srcfileloc  "tree.h" 6467)
 nil )
 (!pair  "implicit_p"
 (!type array 1273 nil  gc_used "(int)END_BUILTINS" 
 (!type already_seen 9)
 )
 
-(!srcfileloc  "tree.h" 6467)
+(!srcfileloc  "tree.h" 6468)
 nil ))
 nil 511 nil )
 
@@ -24068,27 +24068,27 @@ nil 0 nil )
 (!type already_seen 1276)
 )
  gc_pointed_to "tree_vec_map"
-(!srcfileloc  "tree.h" 6293)
+(!srcfileloc  "tree.h" 6294)
 
 (!fields 2 
 (!pair  "base"
 (!type struct 1278 nil  gc_used "tree_map_base"
-(!srcfileloc  "tree.h" 6235)
+(!srcfileloc  "tree.h" 6236)
 
 (!fields 1 
 (!pair  "from"
 (!type already_seen 5)
 
-(!srcfileloc  "tree.h" 6234)
+(!srcfileloc  "tree.h" 6235)
 nil ))
 nil 511 nil )
 
-(!srcfileloc  "tree.h" 6291)
+(!srcfileloc  "tree.h" 6292)
 nil )
 (!pair  "to"
 (!type already_seen 45)
 
-(!srcfileloc  "tree.h" 6292)
+(!srcfileloc  "tree.h" 6293)
 nil ))
 nil 511 nil )
 
@@ -24097,23 +24097,23 @@ nil 511 nil )
 (!type already_seen 1279)
 )
  gc_pointed_to "tree_priority_map"
-(!srcfileloc  "tree.h" 6282)
+(!srcfileloc  "tree.h" 6283)
 
 (!fields 3 
 (!pair  "base"
 (!type already_seen 1278)
 
-(!srcfileloc  "tree.h" 6279)
+(!srcfileloc  "tree.h" 6280)
 nil )
 (!pair  "init"
 (!type already_seen 9)
 
-(!srcfileloc  "tree.h" 6280)
+(!srcfileloc  "tree.h" 6281)
 nil )
 (!pair  "fini"
 (!type already_seen 9)
 
-(!srcfileloc  "tree.h" 6281)
+(!srcfileloc  "tree.h" 6282)
 nil ))
 nil 511 nil )
 
@@ -24122,18 +24122,18 @@ nil 511 nil )
 (!type already_seen 1281)
 )
  gc_pointed_to "tree_int_map"
-(!srcfileloc  "tree.h" 6270)
+(!srcfileloc  "tree.h" 6271)
 
 (!fields 2 
 (!pair  "base"
 (!type already_seen 1278)
 
-(!srcfileloc  "tree.h" 6268)
+(!srcfileloc  "tree.h" 6269)
 nil )
 (!pair  "to"
 (!type already_seen 9)
 
-(!srcfileloc  "tree.h" 6269)
+(!srcfileloc  "tree.h" 6270)
 nil ))
 nil 511 nil )
 
@@ -24142,18 +24142,18 @@ nil 511 nil )
 (!type already_seen 1283)
 )
  gc_pointed_to "tree_decl_map"
-(!srcfileloc  "tree.h" 6259)
+(!srcfileloc  "tree.h" 6260)
 
 (!fields 2 
 (!pair  "base"
 (!type already_seen 1278)
 
-(!srcfileloc  "tree.h" 6257)
+(!srcfileloc  "tree.h" 6258)
 nil )
 (!pair  "to"
 (!type already_seen 5)
 
-(!srcfileloc  "tree.h" 6258)
+(!srcfileloc  "tree.h" 6259)
 nil ))
 nil 511 nil )
 
@@ -24162,23 +24162,23 @@ nil 511 nil )
 (!type already_seen 1285)
 )
  gc_pointed_to "tree_map"
-(!srcfileloc  "tree.h" 6248)
+(!srcfileloc  "tree.h" 6249)
 
 (!fields 3 
 (!pair  "base"
 (!type already_seen 1278)
 
-(!srcfileloc  "tree.h" 6245)
+(!srcfileloc  "tree.h" 6246)
 nil )
 (!pair  "hash"
 (!type already_seen 9)
 
-(!srcfileloc  "tree.h" 6246)
+(!srcfileloc  "tree.h" 6247)
 nil )
 (!pair  "to"
 (!type already_seen 5)
 
-(!srcfileloc  "tree.h" 6247)
+(!srcfileloc  "tree.h" 6248)
 nil ))
 nil 511 nil )
 
@@ -25230,7 +25230,7 @@ nil 511 nil )
 (!type already_seen 1344)
 )
 
-(!typedefs 543
+(!typedefs 544
 
 (!pair  "vec<ivarref_entry,va_gc>"
 (!type already_seen 1)
@@ -25662,12 +25662,12 @@ nil )
 (!pair  "constexpr_call"
 (!type already_seen 708)
 
-(!srcfileloc  "cp/semantics.c" 6434)
+(!srcfileloc  "cp/semantics.c" 6451)
 nil )
 (!pair  "constexpr_fundef"
 (!type already_seen 711)
 
-(!srcfileloc  "cp/semantics.c" 5767)
+(!srcfileloc  "cp/semantics.c" 5784)
 nil )
 (!pair  "vec<deferred_access,va_gc>"
 (!type already_seen 712)
@@ -26472,7 +26472,7 @@ nil )
 (!pair  "arm_mangle_map_entry"
 (!type already_seen 992)
 
-(!srcfileloc  "config/arm/arm.c" 25922)
+(!srcfileloc  "config/arm/arm.c" 25929)
 nil )
 (!pair  "builtin_arg"
 (!type already_seen 9)
@@ -26587,42 +26587,42 @@ nil )
 (!pair  "transform_callback"
 (!type already_seen 9)
 
-(!srcfileloc  "tree-flow.h" 665)
+(!srcfileloc  "tree-flow.h" 666)
 nil )
 (!pair  "affine_iv"
 (!type already_seen 1039)
 
-(!srcfileloc  "tree-flow.h" 576)
+(!srcfileloc  "tree-flow.h" 577)
 nil )
 (!pair  "walk_use_def_chains_fn"
 (!type already_seen 9)
 
-(!srcfileloc  "tree-flow.h" 504)
+(!srcfileloc  "tree-flow.h" 505)
 nil )
 (!pair  "edge_var_map_vector"
 (!type already_seen 1042)
 
-(!srcfileloc  "tree-flow.h" 484)
+(!srcfileloc  "tree-flow.h" 485)
 nil )
 (!pair  "vl_embed"
 (!type already_seen 1040)
 
-(!srcfileloc  "tree-flow.h" 484)
+(!srcfileloc  "tree-flow.h" 485)
 nil )
 (!pair  "va_heap"
 (!type already_seen 1041)
 
-(!srcfileloc  "tree-flow.h" 484)
+(!srcfileloc  "tree-flow.h" 485)
 nil )
 (!pair  "vec<edge_var_map,va_heap,vl_embed>"
 (!type already_seen 1042)
 
-(!srcfileloc  "tree-flow.h" 484)
+(!srcfileloc  "tree-flow.h" 485)
 nil )
 (!pair  "edge_var_map"
 (!type already_seen 1043)
 
-(!srcfileloc  "tree-flow.h" 480)
+(!srcfileloc  "tree-flow.h" 481)
 nil )
 (!pair  "imm_use_iterator"
 (!type already_seen 1046)
@@ -26642,17 +26642,22 @@ nil )
 (!pair  "walk_stmt_fn"
 (!type already_seen 9)
 
-(!srcfileloc  "gimple.h" 5290)
+(!srcfileloc  "gimple.h" 5291)
 nil )
 (!pair  "fallback_t"
 (!type already_seen 9)
 
-(!srcfileloc  "gimple.h" 934)
+(!srcfileloc  "gimple.h" 935)
 nil )
 (!pair  "gimple_predicate"
 (!type already_seen 9)
 
-(!srcfileloc  "gimple.h" 916)
+(!srcfileloc  "gimple.h" 917)
+nil )
+(!pair  "walk_stmt_load_store_addr_fn"
+(!type already_seen 9)
+
+(!srcfileloc  "gimple.h" 891)
 nil )
 (!pair  "gimple_stmt_iterator"
 (!type already_seen 1053)
@@ -27364,32 +27369,32 @@ nil )
 (!pair  "builtin_info_type"
 (!type already_seen 1271)
 
-(!srcfileloc  "tree.h" 6468)
+(!srcfileloc  "tree.h" 6469)
 nil )
 (!pair  "const_call_expr_arg_iterator"
 (!type already_seen 1274)
 
-(!srcfileloc  "tree.h" 6362)
+(!srcfileloc  "tree.h" 6363)
 nil )
 (!pair  "call_expr_arg_iterator"
 (!type already_seen 1275)
 
-(!srcfileloc  "tree.h" 6356)
+(!srcfileloc  "tree.h" 6357)
 nil )
 (!pair  "tree_node_kind"
 (!type already_seen 9)
 
-(!srcfileloc  "tree.h" 6217)
+(!srcfileloc  "tree.h" 6218)
 nil )
 (!pair  "walk_tree_lh"
 (!type already_seen 9)
 
-(!srcfileloc  "tree.h" 6179)
+(!srcfileloc  "tree.h" 6180)
 nil )
 (!pair  "walk_tree_fn"
 (!type already_seen 9)
 
-(!srcfileloc  "tree.h" 6174)
+(!srcfileloc  "tree.h" 6175)
 nil )
 (!pair  "function_args_iterator"
 (!type already_seen 1288)
@@ -29609,7 +29614,7 @@ nil )
 (!pair  "constexpr_call_table"
 (!type already_seen 1361)
 
-(!srcfileloc  "cp/semantics.c" 6439)
+(!srcfileloc  "cp/semantics.c" 6456)
 
 (!options 
 (!option param_is type 
@@ -29620,7 +29625,7 @@ nil )
 (!pair  "constexpr_fundef_table"
 (!type already_seen 1363)
 
-(!srcfileloc  "cp/semantics.c" 5772)
+(!srcfileloc  "cp/semantics.c" 5789)
 
 (!options 
 (!option param_is type 
@@ -31930,7 +31935,7 @@ nil )
 (!pair  "builtin_info"
 (!type already_seen 1271)
 
-(!srcfileloc  "tree.h" 6470)
+(!srcfileloc  "tree.h" 6471)
 nil )
 (!pair  "current_function_func_begin_label"
 (!type already_seen 36)
